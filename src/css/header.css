@@ -32,3 +32,6 @@
     font-weight: bold;
     color: black;
 }
+.header-menu>ul>li>a:hover{
+    color:red;
+}
