@@ -1,0 +1,34 @@
+.header{
+    height: 80px;
+}
+.header-logo{
+    width: 88px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    float: left;
+}
+.header-menu, .header-menu>ul, .header-menu>ul>li{
+    display: flex;
+}
+.header-menu{
+    justify-content: flex-end;
+}
+.header-menu>ul{
+    list-style: none;
+}
+.header-menu>ul>li{
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    margin-right: 15px;
+}
+.header-menu>ul>li:last-child{
+    margin-right: 0;
+}
+.header-menu>ul>li>a{
+    text-decoration: none;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: black;
+}
