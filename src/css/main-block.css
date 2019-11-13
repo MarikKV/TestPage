@@ -66,14 +66,14 @@
         visibility: hidden;
     }
     .main-block{
-        height: 550px;
+        height: 600px;
     }
     .main-block-foto, .main-block-info{
         height: 50%;
         width: 241px;
     }
     .main-block-foto{
-        margin-top: -150px;
+        margin-top: -130px;
         height: 133px;
     }
 }
